@@ -1,0 +1,109 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        nav {
+            background-color: #a9b08d;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        nav img {
+            height: 30px;
+            cursor: pointer;
+        }
+
+        nav input[type="text"] {
+            flex: 1;
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+
+        nav .categorias {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        nav .categorias a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        /* Título Carrinho */
+        .carrinho-title {
+            background-color: #a9b08d;
+            text-align: center;
+            padding: 20px 0;
+            font-weight: bold;
+            font-size: 24px;
+            color: white;
+            margin-top: 0;
+        }
+
+        /* Grid de livros */
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .book-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .book-card h3 {
+            font-size: 14px;
+            margin: 10px 0 5px 0;
+        }
+
+        .book-card button {
+            background-color: #a9b08d;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        .book-card .preco {
+            display: block;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        /* Ícone carrinho no card */
+        .book-card .cart-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 25px;
+            cursor: pointer;
+        }
+
+        .book-card-wrapper {
+            position: relative;
+        }
