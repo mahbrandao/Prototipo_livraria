@@ -7,48 +7,56 @@
     <link rel="stylesheet" href="css/style.css">
     
 <body>
+    <nav class="top-nav">
+    <img class="logo" src="img/logo.l.png" alt="Logo Bookspace">
 
-    <!-- NAVBAR -->
-    <nav>
-        <img src="img/logo.l.png" alt="Logo Bookspace">
+    <div class="search-bar">
         <input type="text" placeholder="Pesquise um título, autor ou editora">
-        <img src="img/image.png" alt="Buscar">
-        <img src="casa.png" alt="Home">
-        <img src="menu.png" alt="Menu">
-        <div class="categorias">
-            <a href="#">Terror</a>
-            <a href="#">HQ & Quadrinhos</a>
-            <a href="#">Romance</a>
-            <a href="#">Fantasia</a>
-            <a href="#">Suspense</a>
-            <a href="#">Livros Nacionais</a>
-            <a href="#">Mangás</a>
-            <a href="#">Aventura</a>
-            <a href="#">Enciclopédias</a>
-            <a href="#">Poemas</a>
-            <a href="#">Biografias</a>
-        </div>
-    </nav>
+        <button><img src="img/image.png" alt="Buscar"></button>
+    </div>
 
+    <div class="icons">
+        <img src="img/home.png" alt="Home">
+        <img src="img/carrinho.png" alt="Carrinho">
+        <img src="img/itens.png" alt="Menu">
+    </div>
+</nav>
+
+<nav class="menu">
+    <a href="#">Terror</a>
+    <a href="#">HQ & Quadrinhos</a>
+    <a href="#">Romance</a>
+    <a href="#">Fantasia</a>
+    <a href="#">Suspense</a>
+    <a href="#">Livros Nacionais</a>
+    <a href="#">Mangás</a>
+    <a href="#">Aventura</a>
+    <a href="#">Enciclopédias</a>
+    <a href="#">Poemas</a>
+    <a href="#">Biografias</a>
+</nav>
+
+        
     <!-- TÍTULO -->
     <h2 class="carrinho-title">Meu Carrinho</h2>
 
-    <!-- GRID DE LIVROS -->
+    
     <div class="book-grid">
 
         <div class="book-card-wrapper">
             <div class="book-card">
-                <img src="livro1.png" alt="Livro 1">
+                <img src="img/osDois_img.jpeg" alt="Livro 1">
                 <h3>Os Dois Morrem no Final - Adam Silvera</h3>
                 <button>Comprar</button>
                 <span class="preco">R$40,37</span>
+                <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
             </div>
-            <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
+            
         </div>
 
         <div class="book-card-wrapper">
             <div class="book-card">
-                <img src="livro2.png" alt="Livro 2">
+                <img src="img/aBiblioteca_img.jpeg" alt="Livro 2">
                 <h3>A Biblioteca da Meia-Noite - Matt Haig</h3>
                 <button>Comprar</button>
                 <span class="preco">R$38,62</span>
@@ -58,7 +66,7 @@
 
         <div class="book-card-wrapper">
             <div class="book-card">
-                <img src="livro2.png" alt="Livro 3">
+                <img src="img/relatosGato_img.jpg" alt="Livro 3">
                 <h3>Relatos de Um Gato Viajante - Hiro Arikawa</h3>
                 <button>Comprar</button>
                 <span class="preco">R$30,99</span>
@@ -68,8 +76,8 @@
 
         <div class="book-card-wrapper">
             <div class="book-card">
-                <img src="livro2.png" alt="Livro 4">
-                <h3>A Biblioteca da Meia-Noite - Matt Haig</h3>
+                <img src="img/aRevolucao_img.jpg" alt="Livro 4">
+                <h3>Revolução dos Bichos - George Orwell</h3>
                 <button>Comprar</button>
                 <span class="preco">R$64,90</span>
             </div>
@@ -78,17 +86,65 @@
 
         <div class="book-card-wrapper">
             <div class="book-card">
-                <img src="livro2.png" alt="Livro 5">
-                <h3>A Biblioteca da Meia-Noite - Matt Haig</h3>
+                <img src="img/melhorDoQ_img.jpg" alt="Livro 5">
+                <h3>Melhor do que nos filmes - Lynn Painter</h3>
                 <button>Comprar</button>
-                <span class="preco">R$38,62</span>
+                <span class="preco">R$39,90</span>
             </div>
             <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
         </div>
 
-        <!-- Repita para todos os livros do carrinho -->
+        <div class="book-card-wrapper">
+            <div class="book-card">
+                <img src="img/assimQ_img.jpg" alt="Livro 6">
+                <h3>É Assim que Acaba - Collen Hoover</h3>
+                <button>Comprar</button>
+                <span class="preco">R$35,50</span>
+            </div>
+            <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
+        </div>
+
+        
+        <div class="book-card-wrapper">
+            <div class="book-card">
+                <img src="img/parteDO_img.jpg" alt="Livro 7">
+                <h3>Parte do seu mundo - Abby Jimenez</h3>
+                <button>Comprar</button>
+                <span class="preco">R$43,02</span>
+            </div>
+            <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
+        </div>
+
+         <div class="book-card-wrapper">
+            <div class="book-card">
+                <img src="img/emOutra_img.jpg" alt="Livro 8">
+                <h3>Em outra vida, talvez? - Taylor Jenkins</h3>
+                <button>Comprar</button>
+                <span class="preco">R$40,90</span>
+            </div>
+            <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
+        </div>
+
+        <div class="book-card-wrapper">
+            <div class="book-card">
+                <img src="img/apostandoNo_img.jpg" alt="Livro 9">
+                <h3>Apostando no Amor - Lynn Painter</h3>
+                <button>Comprar</button>
+                <span class="preco">R$39,80</span>
+            </div>
+            <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
+        </div>
+
+         <div class="book-card-wrapper">
+            <div class="book-card">
+                <img src="img/amorE_img.jpg" alt="Livro 10">
+                <h3>Amor e Gelato - Jenna Evans Welch</h3>
+                <button>Comprar</button>
+                <span class="preco">R$64,90</span>
+            </div>
+            <img class="cart-icon" src="carrinho.png" alt="Adicionar ao carrinho">
+        </div>
+
         
     </div>
 
-</body>
-</html>
